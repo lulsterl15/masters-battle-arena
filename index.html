@@ -162,8 +162,8 @@
 
   <!-- Auth Bar -->
   <div class="auth-bar">
-    <button class="btn-outline" id="loginBtn">Log In</button>
-    <button class="btn-primary" id="signupBtn">Sign Up</button>
+    <button class="btn-outline" id="loginBtn" type="button">Log In</button>
+    <button class="btn-primary" id="signupBtn" type="button">Sign Up</button>
   </div>
 
   <!-- Hero -->
@@ -235,8 +235,8 @@
           <div class="fighter-name" style="margin-top:.5rem">The Empress</div>
         </div>
       </div>
-      <br/>
-      <button class="btn-primary" style="margin-top:1rem" id="watchBtn">Watch Battle &#9654;</button>
+      
+      <button class="btn-primary" style="margin-top:1rem" id="watchBtn" type="button">Watch Battle &#9654;</button>
     </div>
   </main>
 
@@ -245,10 +245,6 @@
   </footer>
 
   <script>
-    // Supabase client placeholder — replace with your actual Supabase credentials
-    const SUPABASE_URL = 'YOUR_SUPABASE_URL';
-    const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY';
-
     document.getElementById('loginBtn').addEventListener('click', () => {
       // TODO: open login modal or redirect to login page
       alert('Login coming soon!');
